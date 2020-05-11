@@ -53,8 +53,7 @@ Method PUST que permite actualizar una persona:
     http://localhost:8181/person/update-person
     
         {
-            "id": 5,
-            "name": "Juan Martin ACTUALIZAD",
+            "name": "Juan Martin",
             "lastName": "Torres",
             "process": true
         }
