@@ -35,19 +35,18 @@ http://localhost:8181/person/find-all-person
 
 Method POST que permite guardar una o mas personas: 
     http://localhost:8181/person/save-person
-    body: 
-        [{
-                "name": "Juan Martin",
-                "lastName": "Torres",
-                "process": false
-            },
-
-            {
-                "name": "Estaba2n Tomas5",
-                "lastName": "Torres",
-                "process": false
-            }
-        ]
+       body: 
+                 [{
+                        "name": "Juan Martin",
+                        "lastName": "Torres",
+                        "process": false
+                    },
+                    {
+                        "name": "Estaba2n Tomas5",
+                        "lastName": "Torres",
+                        "process": false
+                    }
+                ]
 
 Method PUST que permite actualizar una persona: 
     http://localhost:8181/person/update-person
