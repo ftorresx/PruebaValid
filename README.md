@@ -34,31 +34,31 @@ http://localhost:8181/person/find-all-person
     ] 
 
 Method POST que permite guardar una o mas personas: 
-http://localhost:8181/person/save-person
-body: 
-    [{
-            "name": "Juan Martin",
-            "lastName": "Torres",
-            "process": false
-        },
+    http://localhost:8181/person/save-person
+    body: 
+        [{
+                "name": "Juan Martin",
+                "lastName": "Torres",
+                "process": false
+            },
 
-        {
-            "name": "Estaba2n Tomas5",
-            "lastName": "Torres",
-            "process": false
-        }
-    ]
+            {
+                "name": "Estaba2n Tomas5",
+                "lastName": "Torres",
+                "process": false
+            }
+        ]
 
 Method PUST que permite actualizar una persona: 
-http://localhost:8181/person/update-person
-    {
-        "id": 5,
-        "name": "Juan Martin ACTUALIZAD",
-        "lastName": "Torres",
-        "process": true
-    }
+    http://localhost:8181/person/update-person
+        {
+            "id": 5,
+            "name": "Juan Martin ACTUALIZAD",
+            "lastName": "Torres",
+            "process": true
+        }
     
-##Author: Ingeniero de Software Fernando Torres     
+## Author: Ingeniero de Software Fernando Torres     
     
 
 
