@@ -3,13 +3,13 @@ Prueba Técnica de VALID
 Usando Java 8 Spring Stereotypes (Boot,JPA) Con Base de Datos H2
 
 ### packages de la aplicacion DEMO
--configuration
--controller
--dto
--entity
--service
--implements
--repository
+    -configuration
+    -controller
+    -dto
+    -entity
+    -service
+    -implements
+    -repository
 
 Patron de Arquitectura realizado Facade que facilita exponer interfaces para realizar los diferentes accesos a un repositorio.
 
